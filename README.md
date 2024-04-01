@@ -1,9 +1,3 @@
-# E-Commerce-Back-End
-
-https://watch.screencastify.com/v/kLLtAMV8yQRDUnOirEQA
-
-
-
 # E-Commerce Back End
 
 ## Description
