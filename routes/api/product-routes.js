@@ -17,9 +17,6 @@ router.get('/', async (req, res) => {
         {
           model: Tag,
           attributes: ['id', 'tag_name'], // Specify the attributes you want from Tag
-          through: {
-            attributes: [], // This line is optional, used to exclude fields from the join table (ProductTag)
-          },
         },
       ],
     });
@@ -95,10 +92,10 @@ router.post('/', async (req, res) => {
       const resultProduct = await Product.findOne({
         where: { id: product.id },
         include: [
-          { 
-            model: Tag, 
-            through: ProductTag, 
-            as: 'tags' 
+          {
+            model: Tag,
+            through: ProductTag,
+            as: 'tags'
           }
         ],
       });
