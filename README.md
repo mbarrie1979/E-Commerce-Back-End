@@ -76,9 +76,12 @@ Run the following command to seed the database with test data: npm run seed
 
 ## Screenshots
 
-![Description of Screenshot 1](./assets/path-to-your-screenshot-1.png)
-![Description of Screenshot 2](./assets/path-to-your-screenshot-2.png)
-... add as many as needed ...
+![Screenshot 1](./readme_screenshots/screenshot_1.png)
+![Screenshot 2](./readme_screenshots/screenshot_2.png)
+![Screenshot 3](./readme_screenshots/screenshot_3.png)
+![Screenshot 4](./readme_screenshots/screenshot_4.png)
+![Screenshot 5](./readme_screenshots/screenshot_5.png)
+
 
 ## Credits
 
